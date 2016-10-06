@@ -1,0 +1,26 @@
+{
+  "name": "design-projects",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "~3.4.0",
+    "express3-handlebars": "0.4.x",
+    "moment": "2.7.x",
+    "async": "0.9.x",
+    "request": "2.36.x",
+    "extend": "1.2.x",
+    "grunt": "0.4.x",
+    "grunt-cli": "1.2.x",
+    "grunt-contrib-jshint": "0.8.x",
+    "grunt-sass": "1.2.x",
+    "grunt-contrib-watch": "0.6.x",
+    "grunt-concurrent": "1.0.x",
+    "grunt-reload": "0.2.x",
+    "grunt-nodemon": "0.3.x",
+    "node-inspector": "0.7.x"
+  },
+  "devDependencies": {
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browser-sync": "^2.2.0"
+  }
+}
