@@ -37,7 +37,7 @@ module.exports = function (grunt) {
     },
     watch: {
       styles: {
-        files: ['sass/**/*.scss', 'views/**/*.hbs', 'views/pages/**'],
+        files: ['sass/**/*.scss', 'views/**/*.hbs', 'views/pages/**', 'views/data/*.json'],
         tasks: ['sass', 'autoprefixer', 'cssnano', 'reload'],
         options: {
           nospawn: true
