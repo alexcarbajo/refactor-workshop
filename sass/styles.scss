@@ -18,8 +18,23 @@
 
 
 /* Settings */
+@import '0_settings/_settings.scss';
+
 /* Tools */
+@import '0_tools/_tools.scss';
+
 /* Generic */
+@import '1_generic/_generic.scss';
+
 /* Elements */
+@import '2_elements/_elements.scss';
+
 /* Components */
+@import '3_components/layouts/_layouts.scss';
+@import '3_components/organisms/_organisms.scss';
+@import '3_components/molecules/_molecules.scss';
+@import '3_components/atoms/_atoms.scss';
+
+
 /* Trumps */
+@import '4_trumps/_trumps.scss';
